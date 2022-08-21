@@ -12,7 +12,11 @@ declare module '@vue/runtime-core' {
     TabBar: typeof import('./src/components/tabBar/tabBar.vue')['default']
     TabBar_vant: typeof import('./src/components/tabBar/tabBar_vant.vue')['default']
     VanButton: typeof import('vant/es')['Button']
+    VanNavBar: typeof import('vant/es')['NavBar']
+    VanSearch: typeof import('vant/es')['Search']
+    VanTab: typeof import('vant/es')['Tab']
     VanTabbar: typeof import('vant/es')['Tabbar']
     VanTabbarItem: typeof import('vant/es')['TabbarItem']
+    VanTabs: typeof import('vant/es')['Tabs']
   }
 }
