@@ -28,3 +28,7 @@ jsconfig.js 和 tsconfig.json 是两个唯一可以在json文件里面写注释�
   font-size:50px;
 }
 ```
+
+获取用户定位的方法navigator.geolocation.getCurrentPosition() 但是由于用户原因 超时无法获取用户的位置
+
+如果数据没有双向绑定 可以考虑使用计算属性 计算属性可以让里面的数据都双向绑定
